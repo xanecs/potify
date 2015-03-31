@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="de.leonadi.potify" >
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".PlantListActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="potify.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="de.leonadi.potify.models" />
+
+        <activity
+            android:name=".PlantDetailActivity"
+            android:label="@string/title_activity_plant_detail"
+            android:parentActivityName=".PlantListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.leonadi.potify.PlantListActivity" />
+        </activity>
+        <activity
+            android:name=".PlantEditActivity"
+            android:label="@string/title_activity_plant_edit_fragment"
+            android:parentActivityName=".PlantListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.leonadi.potify.PlantListActivity" />
+        </activity>
+        <receiver android:name=".PlantReminder" />
+    </application>
+
+</manifest>

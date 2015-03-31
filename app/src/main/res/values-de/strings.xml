@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Potify</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="days">Tage</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="plant_interval">Gießen alle</string>
+    <string name="plant_lastwatered">Zuletzt gegossen</string>
+    <string name="plant_name">Name</string>
+    <string name="plant_species">Sorte</string>
+    <string name="plant_watered">Gegossen</string>
+    <string name="remaining">verbleibend</string>
+    <string name="title_activity_main">Potify</string>
+    <string name="title_activity_plant_detail">Über</string>
+    <string name="title_activity_plant_edit_fragment">Pflanze bearbeiten</string>
+</resources>

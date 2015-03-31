@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Potify</string>
+    <string name="title_activity_main">Potify</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_plant_detail">Detail</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_plant_edit_fragment">Edit Plant</string>
+    <string name="plant_name">Name</string>
+    <string name="plant_species">Species</string>
+    <string name="plant_lastwatered">Last watered</string>
+    <string name="plant_interval">Water every</string>
+    <string name="remaining">remaining</string>
+    <string name="days">days</string>
+    <string name="plant_watered">Watered</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+</resources>
